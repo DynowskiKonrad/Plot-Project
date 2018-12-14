@@ -1,0 +1,60 @@
+int - integer (3)
+float - floating point number (2.5)
+var = 2 - automatically as integer during declaration
+var /= 5 - switch var to floating point number
+4 // 2 - answer is integer
+4 / 2 - answer is floating point number
+1 - 2j - way to write complex number - where i is written by 'j'
+string has to be put in '' or "" which are equivalent
+a = "some text" == a = 'some text'
+inside of text block you can put quotes like opening ones if the \ is before them
+\n - new line
+\t - tabulator
+""" triple quotes 
+gives you new lines
+within an 'enter' inside cell"""
+""" in the begining of function or the program
+triple quotes are used to perform a documentation
+"""
+to reach them you have to call help(function_name)
+This will display documentation of function
+The special value is "none", which has only one value (none)
+bool - only true or false. 
+x > 3 is boolean
+you can separate booleans by keyword 'and'
+'tuple' is sequence of variables (they don't have to be same type)
+ex. t = (15,6,123,'something') - t is tuple
+'list' is sequence of variables that can be rearranged, and edited
+ex. list = [123, 5, 7.0,]
+dict: {'a':"1"} - function that gives value to a first variable. The first element might be a tuple but
+cannot be a list.
+ex. a = {'a':'ej','b':'bi','c':'si'} is a dict
+the list can be called within a single object inside them
+for delete an element from the list you can use a word 'del'
+ex. del list[0]
+function len() returns length (quantity) of a list or tuple
+var.method() - calling a function named 'method' which exists in var type
+string has a method called 'upper' which returns string written in upper letters
+there is another method for string called title() which returns text with only first letters upper
+lists have method called append(), which adds a var in the end
+insert(number, variable) number is index number in list and variable is added content
+for dict you one can use get(searched value, 'default value') method to return a assigned value to given one and 'default value' when it cannot find one
+type() checks given variable type and returns it
+implementation example:
+value = None
+if val is None:
+	print)("NN")
+end of example
+keyword 'is' returns true only if label reffers to a specific value even if value is identical
+keyword '==' returns true if values that are labeled are the same
+to return a tuple you can just use a comma after a returned value or if there is none 
+you might want to use () after keyword return
+in documentation one should type data type that is returned by a function
+way for getting console input is method input().
+example:
+	val = input("This text is putted on the screen, and what you're going to type in ")
+end.
+Then val takes given by user value, but saved as a string
+Conversion of data type:
+ int(5.0)
+ float(val)
